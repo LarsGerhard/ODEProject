@@ -33,6 +33,4 @@ plt.plot(tin, odeint(W, y0in, tin, tfirst=True), label="ODEint")
 
 plt.plot(tin, analytic(tin), label="analytic")
 
-plt.legend()
-
 plt.show()
